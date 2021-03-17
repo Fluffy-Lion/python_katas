@@ -19,7 +19,6 @@
 # to return the correct planet
 # if 3 is an argument, should return EARTH
 def get_planet_name(id):
-    name= ""
     switch_id = {
          1: "Mercury",
          2: "Venus",
