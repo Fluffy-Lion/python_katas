@@ -25,10 +25,22 @@
 # name + " does not play banjo"
 # Names given are always valid strings.
 
-def are_you_playing_banjo(name):
-    if name[0].lower() == "r":
-        return name + " plays banjo"
-    else:
-        return name + " does not play banjo"
+# def are_you_playing_banjo(name):
+#     if name[0].lower() == "r":
+#         return name + " plays banjo"
+#     else:
+#         return name + " does not play banjo"
 
 # areYouPlayingBanjo = lambda n: n+[" does not play banjo"," plays banjo"][n[0].lower()=='r']
+
+# >>>>>>>>>>>>>>
+
+# FIX-ERROR
+
+# def get_status(is_busy):
+#     status = "busy" if is_busy else "available"
+#     return status
+
+# Function should return a dictionary/Object/Hash with "status" as a key, 
+# whose value can : "busy" or "available" depending on the truth value of the argument is_busy.
+
