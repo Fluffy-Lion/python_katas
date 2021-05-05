@@ -75,6 +75,21 @@
 # print(format_money(98))
 
 # or
-def format_money(amount):
-    return '${:.2f}'.format(amount)
-print(format_money(98))
+# def format_money(amount):
+#     return '${:.2f}'.format(amount)
+# print(format_money(98))
+
+# >>>>>>>>>>>>>>
+
+# fix
+# def build_string(*args):
+#     return "I like {}!".format(",".join(args))
+
+
+# def build_string(*args):
+#     return "I like {}!".format(", ".join(args))
+
+# or
+
+# def build_string(*args):
+#     return f"I like {', '.join(args)}!"
